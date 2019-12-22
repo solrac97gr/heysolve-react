@@ -1,0 +1,110 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 50%;
+}
+.pageTitle {
+  color: #42a7e5;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.pageSubtitle {
+  text-align: left;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.social-login {
+  display: flex;
+  flex-direction: row;
+}
+.buttonSocial {
+  border-radius: 6px;
+  width: 50%;
+  margin: 5px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+.facebook {
+  background-color: #2a4468;
+  color: white;
+}
+.google {
+  border: 0.5px solid #42a7e5;
+  color: #606060;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.separator {
+  color: #606060;
+  font-size: 12px;
+}
+.formTitle {
+  color: black;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+}
+.formGuide {
+  color: #606060;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 8px 0px 8px 0px;
+}
+form input {
+  border: 0.5px solid #42a7e5;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 3px 0px 3px 0px;
+}
+.loginBtn {
+  background-color: #42a7e5;
+  color: white;
+  border-radius: 6px;
+  width: 100%;
+  margin: 18px 0px 18px 0px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.redirect {
+  color: #606060;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.redirect a {
+  color: #42a7e5;
+  margin-left: 2px;
+}
+.powerby {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  color: #606060;
+  font-size: 12px;
+  font-weight: 600;
+  bottom: 10px;
+  left: 40%;
+}
+.powerby span{
+    margin-right: 5px;
+}
+@media only screen and (min-width:600px){
+    .container{
+        width: 20%;
+    }
+}
