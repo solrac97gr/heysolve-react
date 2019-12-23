@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { navigate } from "@reach/router"
 export default class FormLogin extends Component {
   constructor(props) {
     super(props);
@@ -27,7 +27,7 @@ export default class FormLogin extends Component {
     if (!this.state.password) {
       return this.setState({ error: "La contraseña no es correcta" });
     }
-    
+    navigate("/tecnicans")
     return this.setState({ error: "" });
   }
 
