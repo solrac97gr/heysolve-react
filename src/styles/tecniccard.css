@@ -1,0 +1,55 @@
+.cardTec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 8px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+
+}
+.tecnicAdchivemnts {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color:#606060
+}
+.tecnicInfor {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.profileBtn {
+  background-color: transparent;
+  border: 1px solid #42a7e5;
+  color: #42a7e5;
+  border-radius: 6px;
+  margin: 3px;
+}
+.contactBtn {
+  background-color: #4fce5d;
+  color: white;
+  border-radius: 6px;
+  margin: 3px;
+}
+.tecnicName {
+  font-weight: 700;
+  color: #2a4468;
+  margin: 3px 0px 3px 0px;
+}
+
+.tecnicWork {
+  color: #7e7e7e;
+  margin: 3px 0px 3px 0px;
+}
+.stars{
+    margin: 3px 0px 3px 0px;
+}
+.profilePicture{
+    border-radius: 50%;
+    width:60px;
+}
+.infoTecCant{
+    color: #2a4468;
+}
