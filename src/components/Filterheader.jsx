@@ -4,7 +4,13 @@ import TitleSubtitle from "./TitleSubtitle";
 import Filter from './Filter';
 
 export default class Filterheader extends Component {
-  state = {};
+  constructor(props){
+    super(props)
+    this.state={}
+  }
+  componentDidMount(){
+    console.log("aqui van las peticiones al api")
+  }
   render() {
     return (
       <div className="containerheader">
