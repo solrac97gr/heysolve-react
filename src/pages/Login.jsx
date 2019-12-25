@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 //Estilos y estaticos
 import "../styles/login.css";
 
@@ -31,7 +32,7 @@ export default class Login extends Component {
           <FormLogin />
           <div className="redirect">
             <span>¿No tienes una cuenta?</span>
-            <a href="google.com">Registrate</a>
+            <Link to="/registrate">Registrate</Link>
           </div>
           <div className="redirect">
             <span>¿Probelmas para iniciar sesión</span>

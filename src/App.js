@@ -9,11 +9,12 @@ import {
   faUser,
   faPhone
 } from "@fortawesome/free-solid-svg-icons";
-import { Router } from "@reach/router";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 import Tecnicans from "./pages/Tecnicans";
 library.add(
   fab,
@@ -27,10 +28,13 @@ library.add(
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Login path="login" />
-        <Tecnicans path="tecnicans" />
-      </Router>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/registrate" component={Register} />
+          <Route exact path="/tecnicans" component={Tecnicans} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

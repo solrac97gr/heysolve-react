@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 
-export default class FormLogin extends Component {
+export default class FormRegister extends Component {
   constructor(props) {
     super(props);
     this.state = {
       email: "",
       password: "",
+      passwordconfirm:"",
       error: ""
     };
     this.handlePassChange = this.handlePassChange.bind(this);
+    this.handlePassConfirmChange=this.handlePassConfirmChange.bind(this);
     this.handleUserChange = this.handleUserChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.dismissError = this.dismissError.bind(this);
@@ -42,6 +44,11 @@ export default class FormLogin extends Component {
       password: event.target.value
     });
   }
+  handlePassConfirmChange(event){
+      this.setState(
+          {passwordconfirm:event.target.value}
+      );
+  }
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
@@ -67,8 +74,16 @@ export default class FormLogin extends Component {
           type="password"
           placeholder="Su contraseña debe tener 8 dígitos"
         />
+        
+        <span className="formGuide">Repite tu contraseña</span>
+        <input
+          value={this.state.passwordconfirm}
+          onChange={this.handlePassChange}
+          type="password"
+          placeholder="Sus contraseñas deben coincidir"
+        />
         <button className="loginBtn" type="submit" onClick={this.submit}>
-          Iniciar sesión
+           Registrate
         </button>
       </form>
     );

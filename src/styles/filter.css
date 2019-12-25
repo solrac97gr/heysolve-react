@@ -1,0 +1,13 @@
+.filterContainer{
+    display: flex;
+    flex-direction: row;
+}
+.filterItem{
+    font-weight: 600;
+    color: #606060;
+    background-color: #F5F5F5;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
