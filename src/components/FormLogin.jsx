@@ -27,7 +27,7 @@ export default class FormLogin extends Component {
     if (!this.state.password) {
       return this.setState({ error: "La contraseña no es correcta" });
     }
-   
+
     return this.setState({ error: "" });
   }
 

@@ -9,7 +9,7 @@ export default class Filterheader extends Component {
     this.state={}
   }
   componentDidMount(){
-    console.log("aqui van las peticiones al api")
+    
   }
   render() {
     return (
