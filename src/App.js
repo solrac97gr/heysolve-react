@@ -17,6 +17,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Tecnicans from "./pages/Tecnicans";
 import NotFound from "./pages/NotFound"
+import Home from "./pages/Home";
 library.add(
   fab,
   faCheckSquare,
@@ -34,6 +35,7 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/registrate" component={Register} />
           <Route exact path="/tecnicans" component={Tecnicans} />
+          <Route exact path="/" component={Home} />
           <Route component={NotFound}/>
         </Switch>
       </BrowserRouter>
