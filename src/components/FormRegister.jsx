@@ -58,7 +58,7 @@ export default class FormRegister extends Component {
             {this.state.error}
           </button>
         )}
-        <span className="formTitle">Ingresa con tus datos</span>
+        <span className="formTitle">Registrate con tus datos</span>
         <span className="formGuide">Ingresa tu correo</span>
         <input
           value={this.state.email}

@@ -16,8 +16,9 @@ import "./App.css";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Tecnicans from "./pages/Tecnicans";
-import NotFound from "./pages/NotFound"
+import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
+import Contacto from "./pages/Contacto";
 library.add(
   fab,
   faCheckSquare,
@@ -32,11 +33,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
+          <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/registrate" component={Register} />
           <Route exact path="/tecnicans" component={Tecnicans} />
-          <Route exact path="/" component={Home} />
-          <Route component={NotFound}/>
+          <Route exact path="/contacto" component={Contacto} />
+          <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
     </div>

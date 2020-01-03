@@ -21,7 +21,7 @@ export default class Login extends Component {
         <LogoCenterSquare />
         <div>
           <TitleSubtitle
-            title={"Iniciar sesión"}
+            title={"Registrate"}
             subtitle={"con tu red social"}
           />
           <div className="social-login">
