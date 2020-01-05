@@ -1,5 +1,5 @@
 .logo{
-    width: 25%;
+    width: 30%;
 }
 .wraper{
 font-size: 1rem;
@@ -15,6 +15,9 @@ text-align: center;
 justify-content: space-between;
 box-shadow: 0 -2px 11px -1px rgba(0,0,0,.75);
 padding-top: 10px;
+position: fixed;
+width: 100%;
+background-color: white;
 }
 .navitems{
 font-size: 1rem;
@@ -48,7 +51,7 @@ li .navitem{
 }
 @media (min-width: 600px) {
     .logo{
-        width: 5%;
+        width: 120px;
     }
    .wraper{
     display: flex;

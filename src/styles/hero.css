@@ -1,0 +1,41 @@
+.heroContainer{
+    background-image: url('../static/images/hero.jpg');
+    background-repeat: no-repeat;
+    background-color: #42a7e5;
+    padding: 45% 10% 18% 10%;
+    text-align: left;
+    background-size: cover;
+    
+}
+.TitleHero{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.seoTitle{
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 1px 1px black;
+}
+.btnContactar{
+    font-weight: 600;
+    font-size: 1em;
+    padding: 18px;
+    background-color: #42a7e5;
+    border:none;
+    border-radius: 6px;
+    color: white;
+}
+@media (min-width: 600px) {
+    .heroContainer{
+        padding: 18% 10% 18% 10%;
+    }
+    .TitleHero{
+        font-size: 5em;
+    }
+    .seoTitle{
+        font-size: 2em;
+    }
+  }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
-import logo from "../static/images/heysolve.jpeg";
+import logo from "../static/images/logo-largo.jpeg";
 
 export default function Navbar() {
   return (
