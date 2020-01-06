@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footter'
 
 export default function Contacto() {
 
@@ -7,6 +8,7 @@ export default function Contacto() {
         <div>
             <Navbar/>
             Contacto
+            <Footer />
         </div>
     )
 }

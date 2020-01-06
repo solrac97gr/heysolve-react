@@ -4,8 +4,8 @@
   padding: 5% 10% 5% 10%;
   text-align: left;
 }
-.aboutImage{
-    display: none;
+.aboutImage {
+  display: none;
 }
 .aboutTitle {
   color: #42a7e5;
@@ -13,23 +13,22 @@
 }
 @media (min-width: 600px) {
   .aboutTitle {
-    font-size: 2em;
+    font-size: 1.5em;
   }
-  .aboutContainer span{
-    font-size: 1.3em;
-   
-    
+  .aboutContainer span {
+    font-size: 1em;
   }
 
-  .aboutContent{
-      width: 50%;
+  .aboutContent {
+    width: 50%;
   }
-  .aboutImage{
+  .aboutImage {
     display: block;
-     margin-bottom: -71px;
-      margin-left: 100px;
+    margin-bottom: -71px;
+    margin-left: 100px;
+    width: 450px;
   }
-  .aboutContainer{
+  .aboutContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

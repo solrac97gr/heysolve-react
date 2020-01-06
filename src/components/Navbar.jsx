@@ -31,7 +31,7 @@ export default function Navbar() {
             <NavLink
               activeClassName="active"
               className="navitem"
-              to="/login"
+              to="/iniciar-sesion"
               exact
             >
               Ingresar

@@ -34,9 +34,9 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/login" component={Login} />
+          <Route exact path="/iniciar-sesion" component={Login} />
           <Route exact path="/registrate" component={Register} />
-          <Route exact path="/tecnicans" component={Tecnicans} />
+          <Route exact path="/tecnicos" component={Tecnicans} />
           <Route exact path="/contacto" component={Contacto} />
           <Route component={NotFound} />
         </Switch>
