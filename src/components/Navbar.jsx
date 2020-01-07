@@ -2,17 +2,19 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 import logo from "../static/images/logo-largo.jpeg";
+//Utils
+import routes from '../Utils/router'
 
 export default function Navbar() {
   return (
     <header className="wraper">
-      <Link className="logocontainer" to="/">
+      <Link className="logocontainer" to={routes.inicio}>
         <img src={logo} alt="logo" className="logo" />
       </Link>
       <nav>
         <ul className="navitems">
           <li className="navitem">
-            <NavLink activeClassName="active" className="navitem" to="/" exact>
+            <NavLink activeClassName="active" className="navitem" to={routes.inicio} exact>
               Inicio
             </NavLink>
           </li>
@@ -20,7 +22,7 @@ export default function Navbar() {
             <NavLink
               activeClassName="active"
               className="navitem"
-              to="/contacto"
+              to={routes.contacto}
               exact
             >
               Contacto
@@ -31,7 +33,7 @@ export default function Navbar() {
             <NavLink
               activeClassName="active"
               className="navitem"
-              to="/iniciar-sesion"
+              to={routes.iniciarSesion}
               exact
             >
               Ingresar
@@ -42,7 +44,7 @@ export default function Navbar() {
             <NavLink
               activeClassName="active"
               className="navitem"
-              to="/registrate"
+              to={routes.registro}
               exact
             >
               Registrarse

@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
+//Utils
+import routes from '../Utils/router'
+
 //Estilos y estaticos
 import "../styles/login.css";
 
@@ -32,7 +35,7 @@ export default class Login extends Component {
           <FormLogin />
           <div className="redirect">
             <span>¿No tienes una cuenta?</span>
-            <Link to="/registrate">Registrate</Link>
+            <Link to={routes.registro}>Registrate</Link>
           </div>
           <div className="redirect">
             <span>¿Probelmas para iniciar sesión</span>

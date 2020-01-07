@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/footer.css";
+import routes from '../Utils/router'
 
 export default function Footter() {
   return (
@@ -34,10 +35,10 @@ export default function Footter() {
         </div>
         <div className="sitemapContainer">
           <span className="footerTitle">Enlaces</span>
-          <Link to="/" className="sitemapItem">Inicio</Link>
-          <Link to="contacto" className="sitemapItem">Contacto</Link>
-          <Link to="iniciar-sesion" className="sitemapItem">Iniciar sesión</Link>
-          <Link to="registrate"className="sitemapItem">Registrarse</Link>
+          <Link to={routes.inicio} className="sitemapItem">Inicio</Link>
+          <Link to={routes.contacto} className="sitemapItem">Contacto</Link>
+          <Link to={routes.iniciarSesion} className="sitemapItem">Iniciar sesión</Link>
+          <Link to={routes.registro} className="sitemapItem">Registrarse</Link>
         </div>
         <div className="contactFooter">
           <span className="footerTitle">Contactanos</span>

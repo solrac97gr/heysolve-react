@@ -12,6 +12,7 @@ import {
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import "./App.css";
+import routes from "./Utils/router";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -33,11 +34,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/iniciar-sesion" component={Login} />
-          <Route exact path="/registrate" component={Register} />
-          <Route exact path="/tecnicos" component={Tecnicans} />
-          <Route exact path="/contacto" component={Contacto} />
+          <Route exact path={routes.inicio} component={Home} />
+          <Route exact path={routes.iniciarSesion} component={Login} />
+          <Route exact path={routes.registro} component={Register} />
+          <Route exact path={routes.tecnicos} component={Tecnicans} />
+          <Route exact path={routes.contacto} component={Contacto} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
