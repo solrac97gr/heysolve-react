@@ -5,7 +5,7 @@ export default class Powerby extends Component {
     return (
       <div className="powerby">
         <span>Power by</span>
-        <img src={Aws} alt="" width="30px" />
+        <img src={Aws} alt="" width="30px" height="25px"/>
       </div>
     );
   }

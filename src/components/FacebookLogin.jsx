@@ -5,7 +5,7 @@ export default class FacebookLogin extends Component {
     return (
       
         <div className="buttonSocial facebook">
-          <img src={facebooklogo} alt="Logo facebook" width="17px" />
+          <img src={facebooklogo} alt="Logo facebook" width="17px" height="17px"/>
           <span>Facebook</span>
         </div>
      

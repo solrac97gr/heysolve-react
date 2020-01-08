@@ -21,7 +21,7 @@ export default class Login extends Component {
     return (
       <div className="container">
         <LogoCenterSquare />
-        <div>
+        <div className="formContainerLogin">
           <TitleSubtitle
             title={"Registrate"}
             subtitle={"con tu red social"}

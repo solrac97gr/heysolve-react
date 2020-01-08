@@ -1,7 +1,7 @@
 .container {
   font-family: Arial, Helvetica, sans-serif;
   padding: 30px;
-  display: flex;
+  display: -webkit-flex;
   flex-direction: column;
 }
 .logo {
@@ -9,6 +9,7 @@
 }
 .social-login {
   display: flex;
+  display: -webkit-flex;
   flex-direction: row;
 }
 .buttonSocial {
@@ -16,7 +17,7 @@
   width: 50%;
   margin: 5px;
   padding: 8px;
-  display: flex;
+  display: -webkit-flex;
   justify-content: space-evenly;
   font-size: 18px;
 }
@@ -29,7 +30,7 @@
   color: #606060;
 }
 form {
-  display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   text-align: left;
 }
@@ -84,11 +85,21 @@ form input {
   bottom: 10px;
   left: 40%;
 }
-.powerby span{
-    margin-right: 5px;
+.powerby span {
+  margin-right: 5px;
 }
-@media only screen and (min-width:600px){
-    .container{
-        width: 20%;
-    }
+@media only screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .formContainerLogin{
+    width: 30%;
+    padding: 1.5em;
+    border-radius: 6px;
+    border:0.5px solid #42a7e5
+  }
 }
