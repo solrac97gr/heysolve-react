@@ -1,5 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Este proyecto esta enfocado en ser una plataforma centralizada de busqueda de mano de obra para trabajos de reparación en el hogar.
+Esta siendo desarrollado en React.Js para la parte del frontend que es el actual repositorio, se esta usando tambien Redux como gestor de estado global y React Router como gestor para las rutas.
 ## Available Scripts
 
 In the project directory, you can run:
