@@ -1,5 +1,5 @@
 <p align="center"><a href="https://iheysolver.me/" target="_blank" rel="noopener noreferrer">
-<img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/79981981_767121387120246_7130384995490725888_o.png?_nc_cat=111&_nc_ohc=PAajYjc0NQwAX8fWJFf&_nc_ht=scontent-scl1-1.xx&oh=895f92a2da480cbabee222dfe6cbbd8e&oe=5EA9877B" alt="drawing" width="200"/></a></p>
+<img src="https://i.imgur.com/uacZyDJ.png" alt="drawing" width="200"/></a></p>
 
 <p align="center">
   <a href="https://circleci.com/gh/vuejs/vue/tree/dev"><img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg" alt="Build Status"></a>
