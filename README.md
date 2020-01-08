@@ -15,7 +15,7 @@ This project is focused on being a centralized workforce search platform for hom
 It is being developed in React.Js for the part of the frontend that is the current repository, Redux is also being used as a global state manager and React Router as a route manager.
 ## Available Scripts
 
-<p><img src="https://imgur.com/a/qfNCFsq" /></p>
+<p><img src="https://i.imgur.com/ZRtE1xy.png" /></p>
 
 In the project directory, you can run:
 
