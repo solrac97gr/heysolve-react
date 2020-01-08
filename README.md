@@ -7,12 +7,9 @@
   <a href="https://npmcharts.com/compare/vue?minimal=true"><img src="https://img.shields.io/npm/dm/vue.svg" alt="Downloads"></a>
   <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a>
   <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
-  <a href="https://chat.vuejs.org/"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
-  <br>
-  <a href="https://app.saucelabs.com/builds/50f8372d79f743a3b25fb6ca4851ca4c"><img src="https://app.saucelabs.com/buildstatus/vuejs" alt="Build Status"></a>
 </p>
 
-<h2 align="center">Supporting Vue.js</h2>
+<h2 align="center">HeySolve | Técnicos a domicilio en lima</h2>
 
 Este proyecto esta enfocado en ser una plataforma centralizada de busqueda de mano de obra para trabajos de reparación en el hogar.
 Esta siendo desarrollado en React.Js para la parte del frontend que es el actual repositorio, se esta usando tambien Redux como gestor de estado global y React Router como gestor para las rutas.
