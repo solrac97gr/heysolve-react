@@ -13,13 +13,13 @@
 
 This project is focused on being a centralized workforce search platform for home repair work.
 It is being developed in React.Js for the part of the frontend that is the current repository, Redux is also being used as a global state manager and React Router as a route manager.
-## Available Scripts
+
 
 <p align="center"><img src="https://i.imgur.com/ZRtE1xy.png" width="400" /></p>
 
 <p align="center"><img src="https://i.imgur.com/I3UTRJm.png" width="200" /><img src="https://i.imgur.com/UB47cGK.png" width="200" /></p>
 
-
+## Available Scripts
 
 In the project directory, you can run:
 
