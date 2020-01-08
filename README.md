@@ -1,4 +1,4 @@
-![alt text](https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/79981981_767121387120246_7130384995490725888_o.png?_nc_cat=111&_nc_ohc=PAajYjc0NQwAX8fWJFf&_nc_ht=scontent-scl1-1.xx&oh=895f92a2da480cbabee222dfe6cbbd8e&oe=5EA9877B)
+![alt text](https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/79981981_767121387120246_7130384995490725888_o.png?_nc_cat=111&_nc_ohc=PAajYjc0NQwAX8fWJFf&_nc_ht=scontent-scl1-1.xx&oh=895f92a2da480cbabee222dfe6cbbd8e&oe=5EA9877B =100x20)
 Este proyecto esta enfocado en ser una plataforma centralizada de busqueda de mano de obra para trabajos de reparación en el hogar.
 Esta siendo desarrollado en React.Js para la parte del frontend que es el actual repositorio, se esta usando tambien Redux como gestor de estado global y React Router como gestor para las rutas.
 ## Available Scripts
