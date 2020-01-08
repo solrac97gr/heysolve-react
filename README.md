@@ -17,7 +17,8 @@ It is being developed in React.Js for the part of the frontend that is the curre
 
 <p align="center"><img src="https://i.imgur.com/ZRtE1xy.png" width="400" /></p>
 
-<p align="center"><img src="https://i.imgur.com/I3UTRJm.png" width="200" /></p>
+<p align="center"><img src="https://i.imgur.com/I3UTRJm.png" width="200" /><img src="https://i.imgur.com/UB47cGK.png" width="200" /></p>
+
 
 
 In the project directory, you can run:
