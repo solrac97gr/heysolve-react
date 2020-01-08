@@ -9,10 +9,10 @@
   <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
 </p>
 
-<h2 align="center">HeySolve | Técnicos a domicilio en lima</h2>
+<h2 align="center">HeySolve | Technicians at home in Lima</h2>
 
-Este proyecto esta enfocado en ser una plataforma centralizada de busqueda de mano de obra para trabajos de reparación en el hogar.
-Esta siendo desarrollado en React.Js para la parte del frontend que es el actual repositorio, se esta usando tambien Redux como gestor de estado global y React Router como gestor para las rutas.
+This project is focused on being a centralized workforce search platform for home repair work.
+It is being developed in React.Js for the part of the frontend that is the current repository, Redux is also being used as a global state manager and React Router as a route manager.
 ## Available Scripts
 
 In the project directory, you can run:
