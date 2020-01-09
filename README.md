@@ -5,7 +5,7 @@
   <a href="https://img.shields.io/npm/v/npm"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a> 
 </p>
 
-<h2 align="center">HeySolve | Technicians at home in Lima</h2>
+<h2 align="center">HeySolve | Technicians at home in Lima | Developing...</h2>
 
 This project is focused on being a centralized workforce search platform for home repair work.
 It is being developed in React.Js for the part of the frontend that is the current repository, Redux is also being used as a global state manager and React Router as a route manager.
