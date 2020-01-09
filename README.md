@@ -2,9 +2,8 @@
 <img src="https://i.imgur.com/uacZyDJ.png" alt="drawing" width="200"/></a></p>
 
 <p align="center">
-  <a href="https://circleci.com/gh/vuejs/vue/tree/dev"><img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg" alt="Build Status"></a>
-  <a href="https://codecov.io/github/vuejs/vue?branch=dev"><img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg" alt="Coverage Status"></a>
-</a>
+
+
   <a href="https://img.shields.io/npm/v/npm"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a>
  
 </p>
