@@ -2,10 +2,7 @@
 <img src="https://i.imgur.com/uacZyDJ.png" alt="drawing" width="200"/></a></p>
 
 <p align="center">
-
-
-  <a href="https://img.shields.io/npm/v/npm"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a>
- 
+  <a href="https://img.shields.io/npm/v/npm"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a> 
 </p>
 
 <h2 align="center">HeySolve | Technicians at home in Lima</h2>
