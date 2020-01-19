@@ -1,14 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import TecnicansList from "../components/TecnicanList";
-import FilterHeader from "../components/Filterheader";
+import { Filterheader } from "../components/Filterheader";
 
-export default class Tecnicans extends Component {
-  render() {
-    return (
-      <div>
-        <FilterHeader />
-        <TecnicansList />
-      </div>
-    );
-  }
-}
+export const Tecnicans = () => {
+  return (
+    <>
+      <Filterheader />
+      <TecnicansList />
+    </>
+  );
+};

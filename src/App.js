@@ -16,7 +16,7 @@ import routes from "./Utils/router";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Tecnicans from "./pages/Tecnicans";
+import {Tecnicans} from "./pages/Tecnicans";
 import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import Contacto from "./pages/Contacto";
