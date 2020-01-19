@@ -1,6 +1,8 @@
 .filterContainer{
     display: flex;
     flex-direction: row;
+    padding: 8px;
+    overflow-x: scroll;
 }
 .filterItem{
     font-weight: 600;

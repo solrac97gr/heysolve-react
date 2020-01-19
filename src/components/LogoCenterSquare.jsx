@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Logo from "../static/images/heysolve.jpeg";
+import Logo from "../static/images/heysolve.png";
 
 export default class LogoCenterSquare extends Component {
   render() {

@@ -13,23 +13,23 @@ export default class Filter extends Component {
       this.setState({
         filters: [
           {
-            name: "Todos",
+            name: "Celulares",
             isActive: false
           },
           {
-            name: "Carpi",
+            name: "Computadoras",
             isActive: false
           },
           {
-            name: "Cerra",
+            name: "Iphones",
             isActive: false
           },
           {
-            name: "Pintu",
+            name: "Mac",
             isActive: false
           },
           {
-            name: "Electri",
+            name: "Xiaomi",
             isActive: false
           }
         ]
