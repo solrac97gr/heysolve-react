@@ -4,8 +4,8 @@ import "../styles/home.css";
 import { Helmet } from "react-helmet";
 /* Componentes */
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Footer from "../components/Footter";
+import {Hero} from "../components/Hero";
+import {Footter} from "../components/Footter";
 import About from "../components/About";
 import Why from "../components/Why";
 import Services from "../components/Services";
@@ -19,7 +19,7 @@ const Home = () => {
       <About />
       <Why />
       <Services />
-      <Footer />
+      <Footter />
     </React.Fragment>
   );
 };
