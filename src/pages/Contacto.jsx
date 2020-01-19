@@ -1,14 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footter'
+    import {Footter} from '../components/Footter'
 
-export default function Contacto() {
-
+export const Contacto = () => {
     return (
-        <div>
+<div>
             <Navbar/>
             Contacto
-            <Footer />
+            <Footter />
         </div>
     )
 }

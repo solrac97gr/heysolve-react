@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import "../styles/footer.css";
 import routes from '../Utils/router'
 
-export default function Footter() {
+
+export const Footter = () => {
   return (
     <div>
       <div className="footerContainer">
@@ -61,5 +62,5 @@ export default function Footter() {
         <span>HeySolve 2020 - Todos los derechos reservados ©</span>
       </div>
     </div>
-  );
+  )
 }

@@ -19,7 +19,7 @@ import Register from "./pages/Register";
 import {Tecnicans} from "./pages/Tecnicans";
 import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
-import Contacto from "./pages/Contacto";
+import {Contacto} from "./pages/Contacto";
 library.add(
   fab,
   faCheckSquare,
